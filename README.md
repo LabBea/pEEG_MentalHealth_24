@@ -1,5 +1,3 @@
-README
-================
 
 # Electroencephalography Markers of Perinatal Depression and Anxiety in a Diverse Longitudinal Cohort: A Preliminary Study
 
