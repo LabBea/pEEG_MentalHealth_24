@@ -1,0 +1,35 @@
+"0","  "
+"0","#Print equation"
+"0","extract_eq(LMM)"
+"1","$$
+\begin{aligned}
+  \operatorname{loggad7\_c}_{i}  &\sim N \left(\alpha_{j[i]} + \beta_{1j[i]}(\operatorname{Total\_rel}) + \beta_{2}(\operatorname{EGA\_c}), \sigma^2 \right) \\    
+\left(
+  \begin{array}{c} 
+    \begin{aligned}
+      &\alpha_{j} \\
+      &\beta_{1j}
+    \end{aligned}
+  \end{array}
+\right)
+  &\sim N \left(
+\left(
+  \begin{array}{c} 
+    \begin{aligned}
+      &\gamma_{0}^{\alpha} + \gamma_{1}^{\alpha}(\operatorname{Ethnicity\_Hispanic}) + \gamma_{2}^{\alpha}(\operatorname{Race\_Black}) + \gamma_{3}^{\alpha}(\operatorname{Healthcare\_numeric}) \\
+      &\mu_{\beta_{1j}}
+    \end{aligned}
+  \end{array}
+\right)
+, 
+\left(
+  \begin{array}{cc}
+     \sigma^2_{\alpha_{j}} & \rho_{\alpha_{j}\beta_{1j}} \\ 
+     \rho_{\beta_{1j}\alpha_{j}} & \sigma^2_{\beta_{1j}}
+  \end{array}
+\right)
+ \right)
+    \text{, for ParticipantID j = 1,} \dots \text{,J}
+\end{aligned}
+$$
+"

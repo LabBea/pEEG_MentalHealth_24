@@ -1,0 +1,8 @@
+"0",""
+"0","#"
+"0","p<- ggplotRegression(lm.model)   + "
+"0","  theme_classic() + "
+"0","  xlab(""Relative Alpha Power"") + "
+"0","  ylab(""Centered Log GAD-7"")"
+"0",""
+"0","p + geom_point(data = Plot_data, aes(x = Total_rel, y = loggad7_c, color = Antenatal_EGA_c)) + scale_color_gradient(low = ""cyan"", high = ""darkblue"", limits = c(0,1)) + labs (color = ""EGA"")"

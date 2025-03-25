@@ -1,0 +1,4 @@
+"0","# Add the p-value annotation"
+"0","text(x = 0.4, y = 30, "
+"0","     labels = paste(""Shapiro-Wilk p-value: "", p_value))"
+"0",""

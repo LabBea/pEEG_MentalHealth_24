@@ -1,0 +1,7 @@
+"0","MH_stratification_mod <- MH_stratification %>% filter(PHQ9_category == ""Moderate/Severe"")"
+"0",""
+"0","length(unique(MH_stratification_mod$ParticipantID))/length(unique(MH_stratification$ParticipantID))"
+"1","[1]"
+"1"," 0.1639344"
+"1","
+"
